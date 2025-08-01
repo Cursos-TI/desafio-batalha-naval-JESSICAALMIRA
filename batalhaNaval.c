@@ -1,7 +1,7 @@
-#include <stdio.h>
+ #include <stdio.h>
 
-#define LINHAS 5
-#define COLUNAS 5
+#define LINHAS 10
+#define COLUNAS 10
 
 int main(){ 
 
@@ -17,10 +17,9 @@ int main(){
             printf("%d", matriz [i][j]);
 
         }
-        printf("\n")
+        printf("\n");
     }
 
-    return 0;
-
+   return 0;
 
 
